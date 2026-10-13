@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_black">#000000</color>
+    <color name="red_primary">#FF4D4D</color>
+    <color name="red_soft">#FF8C8C</color>
+    <color name="panel_dark">#111111</color>
+</resources>
