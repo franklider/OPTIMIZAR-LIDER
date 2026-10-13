@@ -44,11 +44,17 @@ jobs:
           echo "Using sdkmanager: $SDKMANAGER"
           yes | "$SDKMANAGER" --licenses || true
 
-      - name: Ensure Gradle Wrapper executable (if present)
-        if: exists('gradlew')
-        run: chmod +x ./gradlew
+      - name: Ensure Gradle Wrapper is executable if present
+        shell: bash
+        run: |
+          if [ -f ./gradlew ]; then
+            chmod +x ./gradlew
+          else
+            echo "Gradle wrapper not found in repo. The build will fail unless you add gradlew and gradle/wrapper to the repository."
+          fi
 
       - name: Build debug APK
+        shell: bash
         run: |
           if [ -f ./gradlew ]; then
             ./gradlew assembleDebug --no-daemon
