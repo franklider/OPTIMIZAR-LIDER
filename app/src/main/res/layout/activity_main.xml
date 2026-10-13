@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPTI-LIDER"
+        android:textColor="#FF4D4D"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/helperText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activa ubicación de alta precisión para mejorar la respuesta en tiempo real."
+        android:textColor="#FF8C8C"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnOpenSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicación"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#111111"
+        android:textColor="#FF4D4D" />
+
+    <Button
+        android:id="@+id/btnBattery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Optimización de batería"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#111111"
+        android:textColor="#FF4D4D" />
+
+    <Button
+        android:id="@+id/btnUsageAccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acceso a uso"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#111111"
+        android:textColor="#FF4D4D" />
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar servicio"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#111111"
+        android:textColor="#FF4D4D" />
+
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detener servicio"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#111111"
+        android:textColor="#FF4D4D" />
+
+    <Button
+        android:id="@+id/btnDeleteHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar historial local"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#111111"
+        android:textColor="#FF4D4D" />
+
+    <Button
+        android:id="@+id/btnDetectApps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detectar apps de rideshare"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#111111"
+        android:textColor="#FF4D4D" />
+
+    <Button
+        android:id="@+id/btnOpenAppInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir App Info"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#111111"
+        android:textColor="#FF4D4D" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listo para optimizar."
+        android:textColor="#FF4D4D"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtDetectedApps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sin análisis todavía."
+        android:textColor="#FF8C8C"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
